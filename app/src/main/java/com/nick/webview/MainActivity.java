@@ -14,5 +14,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         web_View = (WebView) findViewById(R.id.web_view);
         web_View.loadUrl("https://www.qq.com/");
+
     }
 }
